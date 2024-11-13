@@ -14,7 +14,7 @@ app.use(express.static("public"));
 
 //home route
 app.get("/",(req,res)=>{
-     res.sendFile(_dirname + "/src/index.html");
+     res.sendFile(_dirname + "index.html");
 })
 
 //listening to port
